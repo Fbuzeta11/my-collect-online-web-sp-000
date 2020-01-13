@@ -4,11 +4,11 @@ def my_collect(array)
   i = 0
   collection = []
   while i < array.length 
-    yield(array[i])
+    collection << yield(array[i])
       i = i + 1
       
   end
-  return array
+  collection
 end
 
 my_each(list) {|i| "#{i}"}
