@@ -11,6 +11,6 @@ def my_collect(array)
   collection
 end
 
-my_each(list) {|i| "#{i}"}
+
 
 
